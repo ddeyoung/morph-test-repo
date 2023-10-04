@@ -1,6 +1,6 @@
 ---
 - name: Add a user on Ubuntu and CentOS instances
-  hots: all
+  hosts: all
   gather_facts: yes
   become: yes
   become_user: yes
