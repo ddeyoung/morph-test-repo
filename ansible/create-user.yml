@@ -1,6 +1,6 @@
 ---
-- name: pause!
-  ansible.builtin.pause:
+- name: pause
+  pause:
     minutes: 1
 - name: Add a user on Ubuntu and CentOS instances
   hosts: all
