@@ -11,4 +11,3 @@
       name: "John"
       password: "{{ lookup('cypher', 'secret=secret/userpass') | password_hash('sha512') }}"
       state: present
-    when: (ansible_distribution == "Ubuntu") or (ansible_distribution == "CentosOS")
