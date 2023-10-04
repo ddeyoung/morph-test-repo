@@ -1,4 +1,7 @@
 ---
+- name: pause!
+  ansible.builtin.pause:
+    minutes: 1
 - name: Add a user on Ubuntu and CentOS instances
   hosts: all
   gather_facts: no
