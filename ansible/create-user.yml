@@ -1,7 +1,7 @@
 ---
 - name: Add a user on Ubuntu and CentOS instances
   hosts: all
-  gather_facts: yes
+  gather_facts: no
   become: yes
   become_user: yes
   become_method: sudo
